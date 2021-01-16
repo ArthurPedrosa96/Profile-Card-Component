@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+* {
+  margin: 0 auto;
+  font-family: "Kumbh Sans", sans-serif;
+}
+h1,
+h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+}
+#component {
+  width: 100%;
+  height: 900px;
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  align-items: center;
+}
+
+.svg-top {
+  position: absolute;
+  top: -50%;
+  left: -17%;
+}
+
+.svg-bottom {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+
+.card {
+  width: 350px;
+  height: 380px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0px 10px 30px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-pattern {
+  border-radius: 20px 20px 0 0;
+}
+
+.card-image {
+  border: 4px solid whitesmoke;
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  left: 127px;
+}
+
+.card-information {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.Name-age {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 30% auto auto 30%;
+  column-gap: 0px;
+}
+
+.name {
+  grid-column: 2;
+}
+
+.name h1 {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+.age {
+  color: hsl(227, 10%, 46%);
+  margin-bottom: 10px;
+}
+
+.separator {
+  height: 1px;
+  background-color: hsl(0, 0%, 88%);
+}
+
+.profile-info {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.info {
+  padding-top: 25px;
+  text-align: center;
+}
+
+.info h1 {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+  padding-bottom: 10px;
+}
+
+.info h2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.attribution {
+  text-align: center;
+  padding: 10px;
+  background-color: tomato;
+}
