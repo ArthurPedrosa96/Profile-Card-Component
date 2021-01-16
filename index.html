@@ -5,31 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
-  Victor Crest
-  26
-  London
+  <div id="component"> <!--Full compenent-->
+      <img class="svg-top" src="./images/bg-pattern-top.svg" alt="">
+      <img class="svg-bottom" src="./images/bg-pattern-bottom.svg" alt="">
+    <div class="card"> <!--Card-->
+      <div class="card-header"> <!--card background pattern-->
+        <img class="card-pattern" src="./images/bg-pattern-card.svg" alt="">
+      </div>
+      <div> <!--user image-->
+        <img class = "card-image" src="./images/image-victor.jpg" alt="profile picture">
+      </div> 
+      <div class="card-information">
+        <div class="Name-age">
+          <div class="name">
+            <h1>Victor Crest</h1>
+          </div>
+          <div class="age">
+            <h1>26</h1>
+          </div>
+        </div>
+        <h2>London</h2>
+      </div>
+      <div class="separator"></div>
+      <div class="profile-info">
+        <div class="info">
+          <h1>80K</h1>
+          <h2>Followers</h2>
+        </div>
+        <div class="info">
+          <h1>803K</h1>
+          <h2>Likes</h2>
+        </div>
+        <div class="info">
+          <h1>1.4K</h1>
+          <h2>Photos</h2>
+        </div>
+      </div>
 
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">ArthurPedrosa96</a>.
   </div>
 </body>
 </html>
+
