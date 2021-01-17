@@ -17,14 +17,20 @@ h2 {
   align-items: center;
 }
 
-.svg-top {
+.svgs-container {
   position: absolute;
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+}
+.svg-top {
+  position: inherit;
   top: -50%;
   left: -17%;
 }
 
 .svg-bottom {
-  position: absolute;
+  position: inherit;
   top: 50%;
   left: 45%;
 }
